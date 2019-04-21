@@ -1,5 +1,5 @@
 html {
-  overflow: hidden;
+  overflow: hidden !important;
 }
 .menu-btn {
   position: absolute;
