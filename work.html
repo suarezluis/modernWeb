@@ -1,321 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- reset css -->
-    <link rel="stylesheet" href="assets/css/reset.css" />
-    <!-- styles.css -->
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <!-- Favicon link -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <!-- jQuery CDN -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous"
-    ></script>
-    <!-- Font Awesome CDN -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
-    <title>Luis Suarez</title>
-  </head>
 
-  <body>
-    <header>
-      <div class="menu-btn">
-        <div class="btn-line"></div>
-        <div class="btn-line"></div>
-        <div class="btn-line"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- reset css -->
+  <link rel="stylesheet" href="assets/css/reset.css" />
+  <!-- styles.css -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <!-- Favicon link -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
+  <title>Luis Suarez</title>
+</head>
+
+<body>
+  <header>
+    <div class="menu-btn">
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+    </div>
+
+    <nav class="menu">
+      <div class="menu-branding">
+        <div class="portrait"></div>
+      </div>
+      <ul class="menu-nav">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">
+            About Me
+          </a>
+        </li>
+        <li class="nav-item current">
+          <a href="work.html" class="nav-link">
+            My Work
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="work">
+    <h1 class="lg-heading">
+      My
+      <span class="text-secondary">Work</span>
+    </h1>
+    <h2 class="sm-heading">
+      Check out some of my projects...
+    </h2>
+    <div class="projects">
+      <div class="item">
+        <a href="https://suarezluis-react-bmi.herokuapp.com/" target="blank">
+          <img src="assets/img/projects/react-bmi.png" alt="Project" />
+        </a>
+        <a href="https://suarezluis-react-bmi.herokuapp.com/" target="blank" class="btn-light">
+          <i class="fas fa-eye"></i> React Body Mass Index
+        </a>
+        <a href="https://github.com/suarezluis/BMI-React" target="blank" class="btn-dark">
+          <i class="fab fa-github"></i> Github
+        </a>
+      </div>
+      <div class="item">
+        <a href="https://suarezluis.github.io/reactBuild/" target="blank">
+          <img src="assets/img/projects/reacttube.png" alt="Project" />
+        </a>
+        <a href="https://suarezluis.github.io/reactBuild/" target="blank" class="btn-light">
+          <i class="fas fa-eye"></i> React Tube
+        </a>
+        <a href="https://github.com/suarezluis/ReactYoutube" target="blank" class="btn-dark">
+          <i class="fab fa-github"></i> Github
+        </a>
+      </div>
+      <div class="item">
+        <a href="https://suarezluis.github.io/AustinNow/" target="blank">
+          <img src="assets/img/projects/austin-now.png" alt="Project" />
+        </a>
+        <a href="https://suarezluis.github.io/AustinNow/" target="blank" class="btn-light">
+          <i class="fas fa-eye"></i> Austin Now!
+        </a>
+        <a href="https://github.com/suarezluis/AustinNow" target="blank" class="btn-dark">
+          <i class="fab fa-github"></i> Github
+        </a>
+      </div>
+      <div class="item">
+        <a href="https://project2ut.herokuapp.com/" target="blank">
+          <img src="assets/img/projects/project-II.png" alt="Project" />
+        </a>
+        <a href="https://project2ut.herokuapp.com/" target="blank" class="btn-light">
+          <i class="fas fa-eye"></i> Project II
+        </a>
+        <a href="https://github.com/suarezluis/Project2UT/" target="blank" class="btn-dark">
+          <i class="fab fa-github"></i> Github
+        </a>
+      </div>
+      <div class="item">
+        <a href="https://dev-social-hub.herokuapp.com/" target="blank">
+          <img src="assets/img/projects/dev-social-hub.png" alt="Project" />
+        </a>
+        <a href="https://dev-social-hub.herokuapp.com/" target="blank" class="btn-light">
+          <i class="fas fa-eye"></i> Dev Social Hub
+        </a>
+        <a href="https://github.com/suarezluis/DSH" target="blank" class="btn-dark">
+          <i class="fab fa-github"></i> Github
+        </a>
+      </div>
+      <div class="item">
+        <a href="https://suarezluis.github.io/Giphle/" target="blank">
+          <img src="assets/img/projects/giphle.png" alt="Project" />
+        </a>
+        <a href="https://suarezluis.github.io/Giphle/" target="blank" class="btn-light">
+          <i class="fas fa-eye"></i> Giphle
+        </a>
+        <a href="https://github.com/suarezluis/Giphle" target="blank" class="btn-dark">
+          <i class="fab fa-github"></i> Github
+        </a>
+      </div>
+      <div class="item">
+        <a href="https://suarezluis.github.io/TrainSchedule/" target="blank">
+          <img src="assets/img/projects/trainschedule.png" alt="Project" />
+        </a>
+        <a href="https://suarezluis.github.io/TrainSchedule/" target="blank" class="btn-light">
+          <i class="fas fa-eye"></i> TrainSchedule
+        </a>
+        <a href="https://github.com/suarezluis/TrainSchedule" target="blank" class="btn-dark">
+          <i class="fab fa-github"></i> Github
+        </a>
+      </div>
+      <div class="item">
+        <a href="https://suarezluis.github.io/unit-4-game/" target="blank">
+          <img src="assets/img/projects/streetfighteros.png" alt="Project" />
+        </a>
+        <a href="https://suarezluis.github.io/unit-4-game/" target="blank" class="btn-light">
+          <i class="fas fa-eye"></i> Street Fighter OS
+        </a>
+        <a href="https://github.com/suarezluis/unit-4-game" target="blank" class="btn-dark">
+          <i class="fab fa-github"></i> Github
+        </a>
+      </div>
+      <div class="item">
+        <a href="https://suarezluis.github.io/RPS-Multiplayer/" target="blank">
+          <img src="assets/img/projects/rpsmultiplayer.png" alt="Project" />
+        </a>
+        <a href="https://suarezluis.github.io/RPS-Multiplayer/" target="blank" class="btn-light">
+          <i class="fas fa-eye"></i> RPS Multiplayer
+        </a>
+        <a href="https://github.com/suarezluis/RPS-Multiplayer" target="blank" class="btn-dark">
+          <i class="fab fa-github"></i> Github
+        </a>
+      </div>
+      <div class="item">
+        <a href="https://suarezluis.github.io/TriviaGame/" target="blank">
+          <img src="assets/img/projects/pulpfictiontrivia.png" alt="Project" />
+        </a>
+        <a href="https://suarezluis.github.io/TriviaGame/" target="blank" class="btn-light">
+          <i class="fas fa-eye"></i> Pulp Fiction Trivia
+        </a>
+        <a href="https://github.com/suarezluis/TriviaGame" target="blank" class="btn-dark">
+          <i class="fab fa-github"></i> Github
+        </a>
+      </div>
+    </div>
+    <br />
+    <h2 class="sm-heading">
+      Check out some of my clients...
+    </h2>
+    <div class="projects">
+      <div class="item">
+        <a href="http://www.mgarrisonvo.com/" target="blank">
+          <img src="assets/img/projects/garrison.png" alt="Project" />
+        </a>
+        <a href="http://www.mgarrisonvo.com/" target="blank" class="btn-light">
+          <i class="fas fa-eye"></i> Marshall Garrison
+        </a>
+        <a href="https://github.com/suarezluis/Garrison" target="blank" class="btn-dark">
+          <i class="fab fa-github"></i> Github
+        </a>
       </div>
 
-      <nav class="menu">
-        <div class="menu-branding">
-          <div class="portrait"></div>
-        </div>
-        <ul class="menu-nav">
-          <li class="nav-item">
-            <a href="index.html" class="nav-link">
-              Home
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="about.html" class="nav-link">
-              About Me
-            </a>
-          </li>
-          <li class="nav-item current">
-            <a href="work.html" class="nav-link">
-              My Work
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="contact.html" class="nav-link">
-              Contact
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    <main id="work">
-      <h1 class="lg-heading">
-        My
-        <span class="text-secondary">Work</span>
-      </h1>
-      <h2 class="sm-heading">
-        Check out some of my projects...
-      </h2>
-      <div class="projects">
-        <div class="item">
-          <a href="https://suarezluis-react-bmi.herokuapp.com/" target="blank">
-            <img src="assets/img/projects/react-bmi.png" alt="Project" />
-          </a>
-          <a
-            href="https://suarezluis-react-bmi.herokuapp.com/"
-            target="blank"
-            class="btn-light"
-          >
-            <i class="fas fa-eye"></i> React Body Mass Index
-          </a>
-          <a
-            href="https://github.com/suarezluis/BMI-React"
-            target="blank"
-            class="btn-dark"
-          >
-            <i class="fab fa-github"></i> Github
-          </a>
-        </div>
-        <div class="item">
-          <a href="https://suarezluis.github.io/reactBuild/" target="blank">
-            <img src="assets/img/projects/reacttube.png" alt="Project" />
-          </a>
-          <a
-            href="https://suarezluis.github.io/reactBuild/"
-            target="blank"
-            class="btn-light"
-          >
-            <i class="fas fa-eye"></i> React Tube
-          </a>
-          <a
-            href="https://github.com/suarezluis/ReactYoutube"
-            target="blank"
-            class="btn-dark"
-          >
-            <i class="fab fa-github"></i> Github
-          </a>
-        </div>
-        <div class="item">
-          <a href="https://suarezluis.github.io/AustinNow/" target="blank">
-            <img src="assets/img/projects/austin-now.png" alt="Project" />
-          </a>
-          <a
-            href="https://suarezluis.github.io/AustinNow/"
-            target="blank"
-            class="btn-light"
-          >
-            <i class="fas fa-eye"></i> Austin Now!
-          </a>
-          <a
-            href="https://github.com/suarezluis/AustinNow"
-            target="blank"
-            class="btn-dark"
-          >
-            <i class="fab fa-github"></i> Github
-          </a>
-        </div>
-        <div class="item">
-          <a href="https://project2ut.herokuapp.com/" target="blank">
-            <img src="assets/img/projects/project-II.png" alt="Project" />
-          </a>
-          <a
-            href="https://project2ut.herokuapp.com/"
-            target="blank"
-            class="btn-light"
-          >
-            <i class="fas fa-eye"></i> Project II
-          </a>
-          <a
-            href="https://github.com/suarezluis/Project2UT/"
-            target="blank"
-            class="btn-dark"
-          >
-            <i class="fab fa-github"></i> Github
-          </a>
-        </div>
-        <div class="item">
-          <a href="https://dev-social-hub.herokuapp.com/" target="blank">
-            <img src="assets/img/projects/dev-social-hub.png" alt="Project" />
-          </a>
-          <a
-            href="https://dev-social-hub.herokuapp.com/"
-            target="blank"
-            class="btn-light"
-          >
-            <i class="fas fa-eye"></i> Dev Social Hub
-          </a>
-          <a
-            href="https://github.com/suarezluis/DSH"
-            target="blank"
-            class="btn-dark"
-          >
-            <i class="fab fa-github"></i> Github
-          </a>
-        </div>
-        <div class="item">
-          <a href="https://suarezluis.github.io/Giphle/" target="blank">
-            <img src="assets/img/projects/giphle.png" alt="Project" />
-          </a>
-          <a
-            href="https://suarezluis.github.io/Giphle/"
-            target="blank"
-            class="btn-light"
-          >
-            <i class="fas fa-eye"></i> Giphle
-          </a>
-          <a
-            href="https://github.com/suarezluis/Giphle"
-            target="blank"
-            class="btn-dark"
-          >
-            <i class="fab fa-github"></i> Github
-          </a>
-        </div>
-        <div class="item">
-          <a href="https://suarezluis.github.io/TrainSchedule/" target="blank">
-            <img src="assets/img/projects/trainschedule.png" alt="Project" />
-          </a>
-          <a
-            href="https://suarezluis.github.io/TrainSchedule/"
-            target="blank"
-            class="btn-light"
-          >
-            <i class="fas fa-eye"></i> TrainSchedule
-          </a>
-          <a
-            href="https://github.com/suarezluis/TrainSchedule"
-            target="blank"
-            class="btn-dark"
-          >
-            <i class="fab fa-github"></i> Github
-          </a>
-        </div>
-        <div class="item">
-          <a href="https://suarezluis.github.io/unit-4-game/" target="blank">
-            <img src="assets/img/projects/streetfighteros.png" alt="Project" />
-          </a>
-          <a
-            href="https://suarezluis.github.io/unit-4-game/"
-            target="blank"
-            class="btn-light"
-          >
-            <i class="fas fa-eye"></i> Street Fighter OS
-          </a>
-          <a
-            href="https://github.com/suarezluis/unit-4-game"
-            target="blank"
-            class="btn-dark"
-          >
-            <i class="fab fa-github"></i> Github
-          </a>
-        </div>
-        <div class="item">
-          <a
-            href="https://suarezluis.github.io/RPS-Multiplayer/"
-            target="blank"
-          >
-            <img src="assets/img/projects/rpsmultiplayer.png" alt="Project" />
-          </a>
-          <a
-            href="https://suarezluis.github.io/RPS-Multiplayer/"
-            target="blank"
-            class="btn-light"
-          >
-            <i class="fas fa-eye"></i> RPS Multiplayer
-          </a>
-          <a
-            href="https://github.com/suarezluis/RPS-Multiplayer"
-            target="blank"
-            class="btn-dark"
-          >
-            <i class="fab fa-github"></i> Github
-          </a>
-        </div>
-        <div class="item">
-          <a href="https://suarezluis.github.io/TriviaGame/" target="blank">
-            <img
-              src="assets/img/projects/pulpfictiontrivia.png"
-              alt="Project"
-            />
-          </a>
-          <a
-            href="https://suarezluis.github.io/TriviaGame/"
-            target="blank"
-            class="btn-light"
-          >
-            <i class="fas fa-eye"></i> Pulp Fiction Trivia
-          </a>
-          <a
-            href="https://github.com/suarezluis/TriviaGame"
-            target="blank"
-            class="btn-dark"
-          >
-            <i class="fab fa-github"></i> Github
-          </a>
-        </div>
+      <div class="item">
+        <a href="http://sabinadiamond.com/" target="blank">
+          <img src="assets/img/projects/sabinadiamond.png" alt="Project" />
+        </a>
+        <a href="http://sabinadiamond.com/" target="blank" class="btn-light">
+          <i class="fas fa-eye"></i> Sabina Diamond
+        </a>
+        <a href="https://github.com/suarezluis/sabina" target="blank" class="btn-dark">
+          <i class="fab fa-github"></i> Github
+        </a>
       </div>
-      <br />
-      <h2 class="sm-heading">
-        Check out some of my clients...
-      </h2>
-      <div class="projects">
-        <div class="item">
-          <a href="http://www.mgarrisonvo.com/" target="blank">
-            <img src="assets/img/projects/garrison.png" alt="Project" />
-          </a>
-          <a
-            href="http://www.mgarrisonvo.com/"
-            target="blank"
-            class="btn-light"
-          >
-            <i class="fas fa-eye"></i> Marshall Garrison
-          </a>
-          <a
-            href="https://github.com/suarezluis/Garrison"
-            target="blank"
-            class="btn-dark"
-          >
-            <i class="fab fa-github"></i> Github
-          </a>
-        </div>
+    </div>
+  </main>
 
-        <div class="item">
-          <a href="http://sabinadiamond.com/" target="blank">
-            <img src="assets/img/projects/sabinadiamond.png" alt="Project" />
-          </a>
-          <a href="http://sabinadiamond.com/" target="blank" class="btn-light">
-            <i class="fas fa-eye"></i> Sabina Diamond
-          </a>
-          <a
-            href="https://github.com/suarezluis/sabina"
-            target="blank"
-            class="btn-dark"
-          >
-            <i class="fab fa-github"></i> Github
-          </a>
-        </div>
-      </div>
-    </main>
+  <footer id="main-footer">
+    Copyright &copy; 2018
+  </footer>
 
-    <footer id="main-footer">
-      Copyright &copy; 2018
-    </footer>
+  <script src="assets/javascript/main.js"></script>
+</body>
 
-    <script src="assets/javascript/main.js"></script>
-  </body>
 </html>
